@@ -17,7 +17,7 @@ private:
 public:
 	CheckingAccount* checking;
 	SavingAccount* saving;
-
+        Client();
 	void setID(int i);
 	int getID();
 	void setName(string fn, string ln);
