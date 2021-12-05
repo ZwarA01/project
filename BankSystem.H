@@ -14,8 +14,6 @@ class BankSystem :public Client {
 private:
 	vector<string> log;
 	Client *oneClient;
-public:
-	void start();
 	void AddCheckingDialog();
 	void RemoveCheckingDialog();
 	void DepositCheckingDialog(); 
@@ -24,6 +22,9 @@ public:
 	void RemoveSavingDialog(); 
 	void DepositSavingDialog(); 
 	void TransferDialog(); 
+public:
+	void start();
+	
 	BankSystem(string i, string fn, string ln);
 
 
